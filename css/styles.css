@@ -1,0 +1,70 @@
+html {
+    background: url(../img/bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    color: #000000;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
+}
+
+section.iu_showcase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.iu_headline {
+    width: 35%;
+    margin-top: 10vh;
+    margin-left: 10%;
+}
+
+h1 {
+    font-size: calc(1rem + 2.5vw);
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-bottom: 7vh;
+}
+
+.iu_info_text {
+    width: 25%;
+    margin-left: 18%;
+}
+
+p {
+    font-size: calc(1rem + 0.5vw);
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    align-items: center;
+}
+
+a {
+    font-size: calc(1rem + 0.5vw);
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    text-decoration: none;
+    text-align: left;
+}
+
+a span {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #000000;
+    line-height: 48px;
+}
